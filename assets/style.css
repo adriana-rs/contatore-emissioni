@@ -1,0 +1,82 @@
+/* Reset di base per rimuovere margini e padding predefiniti */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #B1D4E0; /* Colore di sfondo chiaro */
+    color: #0C2D48; /* Colore testo principale */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Contenitore principale */
+.contatore, .Contatore1 {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Titolo */
+h1 {
+    color: #145DA0; /* Colore blu per i titoli */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Input */
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #2E8BC0; /* Colore blu chiaro per il bordo */
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #145DA0; /* Cambia il bordo quando l'input è attivo */
+}
+
+/* Pulsante */
+button {
+    background-color: #145DA0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0C2D48; /* Cambia il colore al passaggio del mouse */
+}
+
+/* Paragrafo risultato */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Risultato totale */
+#totale {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E8BC0; /* Colore blu chiaro per il totale */
+    margin-top: 20px;
+}

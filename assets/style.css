@@ -1,15 +1,13 @@
-/* Reset di base per rimuovere margini e padding predefiniti */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Stile del body */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #B1D4E0; /* Colore di sfondo chiaro */
-    color: #0C2D48; /* Colore testo principale */
+    background-color: #B1D4E0; 
+    color: #0C2D48; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +15,6 @@ body {
     flex-direction: column;
 }
 
-/* Contenitore principale */
 .contatore, .Contatore1 {
     background-color: #FFFFFF;
     padding: 20px;
@@ -29,9 +26,8 @@ body {
     text-align: center;
 }
 
-/* Titolo */
 h1 {
-    color: #145DA0; /* Colore blu per i titoli */
+    color: #145DA0; 
     font-size: 24px;
     margin-bottom: 15px;
 }
@@ -41,17 +37,16 @@ input[type="number"] {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid #2E8BC0; /* Colore blu chiaro per il bordo */
+    border: 2px solid #2E8BC0; 
     border-radius: 4px;
     font-size: 16px;
     outline: none;
 }
 
 input[type="number"]:focus {
-    border-color: #145DA0; /* Cambia il bordo quando l'input è attivo */
+    border-color: #145DA0; 
 }
 
-/* Pulsante */
 button {
     background-color: #145DA0;
     color: #fff;
@@ -64,19 +59,17 @@ button {
 }
 
 button:hover {
-    background-color: #0C2D48; /* Cambia il colore al passaggio del mouse */
+    background-color: #0C2D48;
 }
 
-/* Paragrafo risultato */
 p {
     font-size: 18px;
     margin-top: 10px;
 }
 
-/* Risultato totale */
 #totale {
     font-size: 24px;
     font-weight: bold;
-    color: #2E8BC0; /* Colore blu chiaro per il totale */
+    color: #2E8BC0; 
     margin-top: 20px;
 }
